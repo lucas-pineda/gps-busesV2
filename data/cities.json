@@ -1,0 +1,314 @@
+{
+  "routeColors": ["#1f5fff", "#ff7a1a", "#00a878", "#e63946", "#8e44ad", "#17a2b8", "#d4a017", "#e91e8c", "#5d6d7e", "#6d4c41", "#2e7d32", "#00838f", "#7cb342", "#3949ab", "#f4511e"],
+  "cities": [
+    {
+      "id": "santa-marta",
+      "name": "Santa Marta",
+      "seed": 7,
+      "center": [-74.205, 11.205],
+      "zoom": 11.6,
+      "company": "Cooperativa Sierra Nevada (ejemplo)",
+      "pois": {
+        "cen": {
+          "name": "Centro Histórico",
+          "lon": -74.211,
+          "lat": 11.2408
+        },
+        "mer": {
+          "name": "Mercado Público",
+          "lon": -74.207,
+          "lat": 11.238
+        },
+        "ter": {
+          "name": "Terminal de Transporte",
+          "lon": -74.1878,
+          "lat": 11.2168
+        },
+        "uni": {
+          "name": "Universidad del Magdalena",
+          "lon": -74.1893,
+          "lat": 11.2198
+        },
+        "rod": {
+          "name": "El Rodadero",
+          "lon": -74.2287,
+          "lat": 11.2033
+        },
+        "gai": {
+          "name": "Gaira",
+          "lon": -74.2265,
+          "lat": 11.193
+        },
+        "aer": {
+          "name": "Aeropuerto Simón Bolívar",
+          "lon": -74.2306,
+          "lat": 11.1196
+        },
+        "tag": {
+          "name": "Taganga",
+          "lon": -74.1918,
+          "lat": 11.2679
+        },
+        "bel": {
+          "name": "Bello Horizonte",
+          "lon": -74.201,
+          "lat": 11.254
+        },
+        "mam": {
+          "name": "Mamatoco",
+          "lon": -74.1985,
+          "lat": 11.243
+        },
+        "man": {
+          "name": "Manzanares",
+          "lon": -74.2,
+          "lat": 11.226
+        },
+        "alm": {
+          "name": "Los Almendros",
+          "lon": -74.204,
+          "lat": 11.234
+        },
+        "pes": {
+          "name": "Pescaito",
+          "lon": -74.213,
+          "lat": 11.246
+        },
+        "sap": {
+          "name": "San Pedro Alejandrino",
+          "lon": -74.1925,
+          "lat": 11.224
+        },
+        "est": {
+          "name": "Estadio",
+          "lon": -74.1965,
+          "lat": 11.23
+        },
+        "poz": {
+          "name": "Pozos Colorados",
+          "lon": -74.232,
+          "lat": 11.189
+        }
+      },
+      "routes": [
+        {
+          "name": "Centro - Rodadero",
+          "stops": ["cen", "mer", "man", "gai", "rod"]
+        },
+        {
+          "name": "Centro - Universidad",
+          "stops": ["cen", "mer", "sap", "uni", "ter"]
+        },
+        {
+          "name": "Centro - Taganga",
+          "stops": ["cen", "pes", "bel", "tag"]
+        },
+        {
+          "name": "Centro - Aeropuerto",
+          "stops": ["cen", "man", "gai", "aer"]
+        },
+        {
+          "name": "Rodadero - Universidad",
+          "stops": ["rod", "gai", "sap", "uni"]
+        },
+        {
+          "name": "Mamatoco - Centro",
+          "stops": ["mam", "bel", "pes", "cen"]
+        },
+        {
+          "name": "Terminal - Rodadero",
+          "stops": ["ter", "man", "gai", "rod", "poz"]
+        },
+        {
+          "name": "Bello Horizonte - Mercado",
+          "stops": ["bel", "mam", "alm", "mer"]
+        },
+        {
+          "name": "Aeropuerto - Terminal",
+          "stops": ["aer", "gai", "man", "ter"]
+        },
+        {
+          "name": "Taganga - Universidad",
+          "stops": ["tag", "bel", "mam", "uni"]
+        },
+        {
+          "name": "Circular Centro",
+          "stops": ["cen", "mer", "alm", "mam", "pes"]
+        },
+        {
+          "name": "Pozos Colorados - Centro",
+          "stops": ["poz", "rod", "man", "cen"]
+        },
+        {
+          "name": "Estadio - Centro",
+          "stops": ["est", "sap", "mer", "cen"]
+        },
+        {
+          "name": "Gaira - Terminal",
+          "stops": ["gai", "man", "uni", "ter"]
+        },
+        {
+          "name": "Manzanares - Taganga",
+          "stops": ["man", "alm", "mam", "bel", "tag"]
+        }
+      ]
+    },
+    {
+      "id": "barranquilla",
+      "name": "Barranquilla",
+      "seed": 13,
+      "center": [-74.8, 10.96],
+      "zoom": 11.7,
+      "company": "Cooperativa Arenosa (ejemplo)",
+      "pois": {
+        "cen": {
+          "name": "Centro",
+          "lon": -74.785,
+          "lat": 10.986
+        },
+        "mal": {
+          "name": "Malecón del Río",
+          "lon": -74.778,
+          "lat": 10.993
+        },
+        "baj": {
+          "name": "Barrio Abajo",
+          "lon": -74.793,
+          "lat": 10.979
+        },
+        "pra": {
+          "name": "Prado",
+          "lon": -74.799,
+          "lat": 10.993
+        },
+        "alp": {
+          "name": "Alto Prado",
+          "lon": -74.804,
+          "lat": 11
+        },
+        "rio": {
+          "name": "Riomar",
+          "lon": -74.812,
+          "lat": 11.003
+        },
+        "bue": {
+          "name": "Buenavista",
+          "lon": -74.815,
+          "lat": 11.009
+        },
+        "uni": {
+          "name": "Universidad del Norte",
+          "lon": -74.8512,
+          "lat": 11.019
+        },
+        "est": {
+          "name": "Estadio Metropolitano",
+          "lon": -74.803,
+          "lat": 10.924
+        },
+        "aer": {
+          "name": "Aeropuerto Ernesto Cortissoz",
+          "lon": -74.7808,
+          "lat": 10.8896
+        },
+        "sol": {
+          "name": "Soledad",
+          "lon": -74.769,
+          "lat": 10.919
+        },
+        "mer": {
+          "name": "Barranquillita",
+          "lon": -74.7815,
+          "lat": 10.9905
+        },
+        "reb": {
+          "name": "Rebolo",
+          "lon": -74.7885,
+          "lat": 10.96
+        },
+        "jar": {
+          "name": "Ciudad Jardín",
+          "lon": -74.82,
+          "lat": 10.97
+        },
+        "nie": {
+          "name": "Las Nieves",
+          "lon": -74.797,
+          "lat": 10.972
+        },
+        "vil": {
+          "name": "Villa Country",
+          "lon": -74.837,
+          "lat": 10.995
+        },
+        "bos": {
+          "name": "El Bosque",
+          "lon": -74.806,
+          "lat": 10.956
+        }
+      },
+      "routes": [
+        {
+          "name": "Centro - Riomar",
+          "stops": ["cen", "pra", "alp", "rio"]
+        },
+        {
+          "name": "Centro - Universidad del Norte",
+          "stops": ["cen", "pra", "bue", "uni"]
+        },
+        {
+          "name": "Centro - Aeropuerto",
+          "stops": ["cen", "reb", "sol", "aer"]
+        },
+        {
+          "name": "Malecón - Buenavista",
+          "stops": ["mal", "cen", "alp", "bue"]
+        },
+        {
+          "name": "Estadio - Centro",
+          "stops": ["est", "bos", "reb", "cen"]
+        },
+        {
+          "name": "Soledad - Centro",
+          "stops": ["sol", "reb", "baj", "cen"]
+        },
+        {
+          "name": "Riomar - Universidad",
+          "stops": ["rio", "bue", "uni", "vil"]
+        },
+        {
+          "name": "Circular Centro",
+          "stops": ["cen", "mer", "baj", "nie", "pra"]
+        },
+        {
+          "name": "Aeropuerto - Estadio",
+          "stops": ["aer", "sol", "est", "bos"]
+        },
+        {
+          "name": "Villa Country - Centro",
+          "stops": ["vil", "jar", "nie", "cen"]
+        },
+        {
+          "name": "Prado - Soledad",
+          "stops": ["pra", "baj", "reb", "sol"]
+        },
+        {
+          "name": "Ciudad Jardín - Riomar",
+          "stops": ["jar", "alp", "rio"]
+        },
+        {
+          "name": "El Bosque - Malecón",
+          "stops": ["bos", "nie", "cen", "mal"]
+        },
+        {
+          "name": "Universidad - Estadio",
+          "stops": ["uni", "vil", "jar", "est"]
+        },
+        {
+          "name": "Barranquillita - Buenavista",
+          "stops": ["mer", "cen", "alp", "bue", "rio"]
+        }
+      ]
+    }
+  ]
+}

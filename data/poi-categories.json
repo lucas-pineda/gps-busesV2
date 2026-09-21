@@ -1,0 +1,114 @@
+[
+  {
+    "id": "transport", "label": "Transporte", "icon": "bus-front-fill", "color": "#0d6efd",
+    "filters": [
+      { "key": "subclass", "values": { "bus_stop": "Paradero de bus", "bus_station": "Terminal de buses", "station": "Estación", "halt": "Parada de tren", "tram_stop": "Parada de tranvía", "subway": "Estación de metro", "ferry_terminal": "Terminal de ferry", "taxi": "Parada de taxis", "aerodrome": "Aeropuerto" } },
+      { "key": "class", "values": { "bus": "Paradero de bus", "railway": "Estación de tren", "airport": "Aeropuerto" } }
+    ]
+  },
+  {
+    "id": "fuel", "label": "Gasolina y carga", "icon": "fuel-pump-fill", "color": "#e8590c",
+    "filters": [
+      { "key": "subclass", "values": { "fuel": "Estación de servicio", "charging_station": "Estación de carga eléctrica" } },
+      { "key": "class", "values": { "fuel": "Estación de servicio", "charging_station": "Estación de carga eléctrica" } }
+    ]
+  },
+  {
+    "id": "health", "label": "Salud", "icon": "hospital-fill", "color": "#dc3545",
+    "filters": [
+      { "key": "subclass", "values": { "hospital": "Hospital", "clinic": "Clínica", "doctors": "Consultorio médico", "dentist": "Odontología", "nursing_home": "Hogar geriátrico", "veterinary": "Veterinaria" } },
+      { "key": "class", "values": { "hospital": "Centro de salud", "dentist": "Odontología", "doctor": "Consultorio médico" } }
+    ]
+  },
+  {
+    "id": "pharmacy", "label": "Farmacias", "icon": "capsule", "color": "#d6336c",
+    "filters": [
+      { "key": "subclass", "values": { "pharmacy": "Farmacia", "chemist": "Droguería" } },
+      { "key": "class", "values": { "pharmacy": "Farmacia" } }
+    ]
+  },
+  {
+    "id": "education", "label": "Educación", "icon": "mortarboard-fill", "color": "#6f42c1",
+    "filters": [
+      { "key": "subclass", "values": { "school": "Colegio", "kindergarten": "Jardín infantil", "university": "Universidad", "college": "Instituto" } },
+      { "key": "class", "values": { "school": "Colegio", "college": "Universidad o instituto" } }
+    ]
+  },
+  {
+    "id": "food", "label": "Comida", "icon": "cup-hot-fill", "color": "#fd7e14",
+    "filters": [
+      { "key": "subclass", "values": { "restaurant": "Restaurante", "cafe": "Café", "fast_food": "Comida rápida", "food_court": "Patio de comidas", "ice_cream": "Heladería", "bakery": "Panadería" } },
+      { "key": "class", "values": { "fast_food": "Comida rápida", "cafe": "Café", "ice_cream": "Heladería", "restaurant": "Restaurante" } }
+    ]
+  },
+  {
+    "id": "bars", "label": "Bares y discotecas", "icon": "cup-straw", "color": "#ae3ec9",
+    "filters": [
+      { "key": "subclass", "values": { "bar": "Bar", "pub": "Bar", "nightclub": "Discoteca", "biergarten": "Cervecería" } },
+      { "key": "class", "values": { "bar": "Bar", "beer": "Bar", "alcohol_shop": "Licorera" } }
+    ]
+  },
+  {
+    "id": "shops", "label": "Tiendas y mercados", "icon": "shop", "color": "#198754",
+    "filters": [
+      { "key": "subclass", "values": { "supermarket": "Supermercado", "convenience": "Tienda", "mall": "Centro comercial", "department_store": "Almacén", "marketplace": "Plaza de mercado", "greengrocer": "Fruver", "deli": "Charcutería" } },
+      { "key": "class", "values": { "grocery": "Supermercado o tienda", "shop": "Comercio", "clothing_store": "Ropa" } }
+    ]
+  },
+  {
+    "id": "banks", "label": "Bancos y cajeros", "icon": "bank", "color": "#0b7285",
+    "filters": [
+      { "key": "subclass", "values": { "bank": "Banco", "atm": "Cajero automático", "bureau_de_change": "Casa de cambio" } },
+      { "key": "class", "values": { "bank": "Banco", "atm": "Cajero automático" } }
+    ]
+  },
+  {
+    "id": "security", "label": "Seguridad", "icon": "shield-fill", "color": "#343a40",
+    "filters": [
+      { "key": "subclass", "values": { "police": "Policía", "fire_station": "Bomberos" } },
+      { "key": "class", "values": { "police": "Policía", "fire_station": "Bomberos" } }
+    ]
+  },
+  {
+    "id": "government", "label": "Servicios públicos", "icon": "buildings-fill", "color": "#6c757d",
+    "filters": [
+      { "key": "subclass", "values": { "post_office": "Correo", "townhall": "Alcaldía", "public_building": "Edificio público", "courthouse": "Juzgado", "community_centre": "Centro comunitario" } },
+      { "key": "class", "values": { "post": "Correo", "town_hall": "Edificio público" } }
+    ]
+  },
+  {
+    "id": "lodging", "label": "Hoteles", "icon": "moon-stars-fill", "color": "#c2255c",
+    "filters": [
+      { "key": "subclass", "values": { "hotel": "Hotel", "motel": "Motel", "hostel": "Hostal", "guest_house": "Casa de huéspedes", "bed_and_breakfast": "Hospedaje" } },
+      { "key": "class", "values": { "lodging": "Alojamiento" } }
+    ]
+  },
+  {
+    "id": "culture", "label": "Cultura y turismo", "icon": "camera-fill", "color": "#7048e8",
+    "filters": [
+      { "key": "subclass", "values": { "museum": "Museo", "attraction": "Atractivo turístico", "viewpoint": "Mirador", "monument": "Monumento", "artwork": "Obra de arte", "gallery": "Galería", "theatre": "Teatro", "cinema": "Cine", "library": "Biblioteca", "castle": "Castillo o fuerte", "ruins": "Ruinas" } },
+      { "key": "class", "values": { "museum": "Museo", "attraction": "Atractivo turístico", "library": "Biblioteca", "theatre": "Teatro", "cinema": "Cine", "art_gallery": "Galería", "monument": "Monumento", "castle": "Castillo o fuerte" } }
+    ]
+  },
+  {
+    "id": "parks", "label": "Parques y deporte", "icon": "tree-fill", "color": "#2f9e44",
+    "filters": [
+      { "key": "subclass", "values": { "park": "Parque", "playground": "Parque infantil", "stadium": "Estadio", "swimming_pool": "Piscina", "sports_centre": "Centro deportivo", "fitness_centre": "Gimnasio", "golf_course": "Golf" } },
+      { "key": "class", "values": { "park": "Parque", "stadium": "Estadio", "swimming": "Piscina", "golf": "Golf" } }
+    ]
+  },
+  {
+    "id": "worship", "label": "Iglesias", "icon": "bell-fill", "color": "#5f3dc4",
+    "filters": [
+      { "key": "subclass", "values": { "place_of_worship": "Lugar de culto", "church": "Iglesia" } },
+      { "key": "class", "values": { "place_of_worship": "Lugar de culto" } }
+    ]
+  },
+  {
+    "id": "parking", "label": "Parqueaderos", "icon": "p-square-fill", "color": "#364fc7",
+    "filters": [
+      { "key": "subclass", "values": { "parking": "Parqueadero", "bicycle_parking": "Parqueadero de bicicletas" } },
+      { "key": "class", "values": { "parking": "Parqueadero" } }
+    ]
+  }
+]

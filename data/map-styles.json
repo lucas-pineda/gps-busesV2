@@ -1,0 +1,35 @@
+[
+  {
+    "id": "liberty",
+    "name": "Liberty",
+    "url": "https://tiles.openfreemap.org/styles/liberty"
+  },
+  {
+    "id": "bright",
+    "name": "Bright",
+    "url": "https://tiles.openfreemap.org/styles/bright"
+  },
+  {
+    "id": "positron",
+    "name": "Claro",
+    "url": "https://tiles.openfreemap.org/styles/positron"
+  },
+  {
+    "id": "dark",
+    "name": "Oscuro",
+    "url": "https://tiles.openfreemap.org/styles/dark",
+    "dark": true
+  },
+  {
+    "id": "fiord",
+    "name": "Fiord",
+    "url": "https://tiles.openfreemap.org/styles/fiord",
+    "dark": true
+  },
+  {
+    "id": "transport",
+    "name": "Transporte",
+    "url": "https://tiles.openfreemap.org/styles/liberty",
+    "transport": true
+  }
+]

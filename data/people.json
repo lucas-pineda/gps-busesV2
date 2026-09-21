@@ -1,0 +1,5 @@
+{
+  "firstNames": ["Carlos", "Andrea", "Jorge", "Luz Marina", "Iván", "Marta", "Felipe", "Sandra", "Juan", "Diana", "Luis", "Paola", "Andrés", "Camila", "Héctor", "Yesenia", "Ricardo", "Liliana", "Wilson", "Katherine", "Óscar", "Milena", "Fabián", "Yaneth", "Jhon", "Marcela", "Édgar", "Daniela", "Rafael", "Natalia"],
+  "lastNames": ["Mejía", "Rojas", "Pineda", "Díaz", "Torres", "Pardo", "Castaño", "Ospina", "Vargas", "Acosta", "Herrera", "Mendoza", "Barrios", "Cantillo", "Ortega", "Fuentes", "Caballero", "Pacheco", "Villalba", "Ramos", "Berdugo", "Jiménez", "Padilla", "Cervantes", "Molina", "Ariza", "Bolaño", "Escorcia", "Ibarra", "Támara"],
+  "vehicleModels": ["Chevrolet NKR", "Hino AK", "Mercedes-Benz OF 1519", "Volkswagen 9.160", "Agrale MA 9.2"]
+}
